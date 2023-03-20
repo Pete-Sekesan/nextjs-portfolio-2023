@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
+import Link from 'next/link'
 
 function Contact() {
     return (
@@ -79,6 +81,13 @@ function Contact() {
                             </form>
                         </div>
                     </div>
+                </div>
+                <div className='flex justify-center py-12'>
+                    <Link href='/'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <HiOutlineChevronDoubleUp className='text-[#ff9933]' size={30} />
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
