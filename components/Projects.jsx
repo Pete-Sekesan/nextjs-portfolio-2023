@@ -2,6 +2,10 @@
 import Image from 'next/image'
 import React from 'react'
 import covidImg from '../public/assets/covid-tracker.0062c8ea.gif'
+import myfImg from '../public/assets/myf.png'
+import ghfinderImg from '../public/assets/ghfinder.png'
+import yesteryearImg from '../public/assets/yesteryear.png'
+import disquizImg from '../public/assets/disquiz.png'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 
@@ -14,9 +18,10 @@ function Projects() {
                 <h2 className='py-4'>What I've Built</h2>
                 <div className='grid md:grid-cols-2 hap-8'>
                     <ProjectItem title='Covid Tracker' desc='React.JS' backgroundImg={covidImg} projectUrl='/covid' />
-                    <ProjectItem title='Covid Tracker' desc='React.JS' backgroundImg={covidImg} projectUrl='/covid' />
-                    <ProjectItem title='Covid Tracker' desc='React.JS' backgroundImg={covidImg} projectUrl='/covid' />
-                    <ProjectItem title='Covid Tracker' desc='React.JS' backgroundImg={covidImg} projectUrl='/covid' />
+                    <ProjectItem title='Mind Your Fitness' desc='React.JS' backgroundImg={myfImg} projectUrl='/fitness' />
+                    <ProjectItem title='Github Finder' desc='React.JS' backgroundImg={ghfinderImg} projectUrl='/githubfinder' />
+                    <ProjectItem title='News of Yesteryear' desc='React.JS' backgroundImg={yesteryearImg} projectUrl='/yesteryear' />
+                    <ProjectItem title='Disney Quiz' desc='React.JS' backgroundImg={disquizImg} projectUrl='/disquiz' />
                 </div>
             </div>
         </div>

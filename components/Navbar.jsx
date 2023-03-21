@@ -21,10 +21,10 @@ const Navbar = () => {
     useEffect(() => {
         if (
             router.asPath === '/covid' ||
-            router.asPath === '/covid' ||
-            router.asPath === '/covid' ||
-            router.asPath === '/covid' ||
-            router.asPath === '/covid'
+            router.asPath === '/githubfinder' ||
+            router.asPath === '/yesteryear' ||
+            router.asPath === '/disquiz' ||
+            router.asPath === '/fitness'
         ) {
             setNavBg('transparent')
             setLinkColor('#ecf0f3')
