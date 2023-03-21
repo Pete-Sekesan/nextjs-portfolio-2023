@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import covidImg from '../public/assets/covid-tracker.0062c8ea.gif';
+import covidImg from '../public/assets/covidtracker.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
