@@ -27,27 +27,28 @@ const Navbar = () => {
     return (
         <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-                <Image
+                <Link scroll={false} href='/#home'><Image
                     src="/../public/assets/ps-logo-orange.png"
                     alt="/"
                     width='125'
                     height='20' />
+                </Link>
 
                 <div>
                     <ul className='hidden md:flex'>
-                        <Link href='/'>
+                        <Link scroll={false} href='/#home'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                         </Link>
-                        <Link href='/#about'>
+                        <Link scroll={false} href='/#about'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
                         </Link>
-                        <Link href='/#skills'>
+                        <Link scroll={false} href='/#skills'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
                         </Link>
-                        <Link href='/#projects'>
+                        <Link scroll={false} href='/#projects'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
                         </Link>
-                        <Link href='/#contact'>
+                        <Link scroll={false} href='/#contact'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
                         </Link>
                     </ul>
@@ -72,7 +73,7 @@ const Navbar = () => {
                     </div>
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
-                            <Link href='/'>
+                            <Link href='/#home'>
                                 <li className='py-4 text-sm'>Home</li>
                             </Link>
                             <Link href='/#about'>
