@@ -18,7 +18,7 @@ const githubfinder = () => {
                 />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                     <h2 className='py-2'>GitHub Finder</h2>
-                    <h3>React JS / Tailwind / Firebase</h3>
+                    <h3>React JS / Material UI </h3>
                 </div>
             </div>
 
@@ -27,17 +27,17 @@ const githubfinder = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        This app was created to continue my React Hooks skills along with React Material UI, while also tapping into some important data this day in age. I utilized the React-ChartJS 2 library to help display in a doughnut graph the daily total count of Covid-19 cases and deaths by country. This data was pulled in using Axios from the https://covid19.mathdro.id/api API that scrapes government data sites for up to date numbers.
+                        React application to search through GitHub users. The application uses the GitHub Users API to make a fetch call to pull in data of any user searched for. Using React with Hooks to render the client side using functional components and Context for state management, the data creates personalized bio page of each user. This application was originally written using class components, which I then refactored to functional components to learn a new skill.
                     </p>
                     <a
-                        href='https://github.com/Pete-Sekesan/covid-19-tracker'
+                        href='https://github.com/Pete-Sekesan/github-finder'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                     </a>
                     <a
-                        href='https://sleepy-hamilton-f8ea80.netlify.app/'
+                        href='https://github-finder-flame.vercel.app/'
                         target='_blank'
                         rel='noreferrer'
                     >
@@ -52,20 +52,15 @@ const githubfinder = () => {
                                 <RiRadioButtonFill className='pr-1' /> React
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Tailwind
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Javascript
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Firebase
+                                <RiRadioButtonFill className='pr-1' /> Bootstrap CSS
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Google API
+                                <RiRadioButtonFill className='pr-1' /> GitHub API
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Zillow API
-                            </p>
+
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,7 @@ const covid = () => {
                 />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                     <h2 className='py-2'>Cvoid Tracker</h2>
-                    <h3>React JS / Tailwind / Firebase</h3>
+                    <h3>React JS / Material UI</h3>
                 </div>
             </div>
 
@@ -52,20 +52,16 @@ const covid = () => {
                                 <RiRadioButtonFill className='pr-1' /> React
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Tailwind
+                                <RiRadioButtonFill className='pr-1' /> Material UI
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Javascript
                             </p>
+
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Firebase
+                                <RiRadioButtonFill className='pr-1' /> Covid-19 API
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Google API
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Zillow API
-                            </p>
+
                         </div>
                     </div>
                 </div>

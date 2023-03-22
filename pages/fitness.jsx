@@ -17,8 +17,8 @@ const fitness = () => {
                     alt='/'
                 />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                    <h2 className='py-2'>GitHub Finder</h2>
-                    <h3>React JS / Tailwind / Firebase</h3>
+                    <h2 className='py-2'>Mind Your Fitness</h2>
+                    <h3>React JS </h3>
                 </div>
             </div>
 
@@ -27,17 +27,17 @@ const fitness = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        This app was created to continue my React Hooks skills along with React Material UI, while also tapping into some important data this day in age. I utilized the React-ChartJS 2 library to help display in a doughnut graph the daily total count of Covid-19 cases and deaths by country. This data was pulled in using Axios from the https://covid19.mathdro.id/api API that scrapes government data sites for up to date numbers.
+                        This app was created to allow users to have a small, standalone application to log and keep track of their exercise's and to view them all in one central location. A full stack application that utilizes React.js for fast and responsive rendering, this application points to a Node.js/Express server that connects to a PostgreSQL database using Knex as the query builder.
                     </p>
                     <a
-                        href='https://github.com/Pete-Sekesan/covid-19-tracker'
+                        href='https://github.com/Pete-Sekesan/mind-your-fitness'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                     </a>
                     <a
-                        href='https://sleepy-hamilton-f8ea80.netlify.app/'
+                        href='https://mind-your-fitness.vercel.app/'
                         target='_blank'
                         rel='noreferrer'
                     >
@@ -52,20 +52,18 @@ const fitness = () => {
                                 <RiRadioButtonFill className='pr-1' /> React
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Tailwind
+                                <RiRadioButtonFill className='pr-1' /> Express.js
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Javascript
+                                <RiRadioButtonFill className='pr-1' /> PostgreSQL
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Firebase
+                                <RiRadioButtonFill className='pr-1' /> Vercel
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Google API
+                                <RiRadioButtonFill className='pr-1' /> Heroku
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Zillow API
-                            </p>
+
                         </div>
                     </div>
                 </div>

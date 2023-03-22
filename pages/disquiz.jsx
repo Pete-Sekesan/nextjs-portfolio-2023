@@ -17,8 +17,8 @@ const disquiz = () => {
                     alt='/'
                 />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                    <h2 className='py-2'>GitHub Finder</h2>
-                    <h3>React JS / Tailwind / Firebase</h3>
+                    <h2 className='py-2'>Disney Quiz App</h2>
+                    <h3>jQuery / HTML / CSS</h3>
                 </div>
             </div>
 
@@ -27,17 +27,17 @@ const disquiz = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        This app was created to continue my React Hooks skills along with React Material UI, while also tapping into some important data this day in age. I utilized the React-ChartJS 2 library to help display in a doughnut graph the daily total count of Covid-19 cases and deaths by country. This data was pulled in using Axios from the https://covid19.mathdro.id/api API that scrapes government data sites for up to date numbers.
+                        This was one of my first projects to create in my program. A short quiz app dedicated to one of my favorite subjects, Disney Parks! The technology stack for this app included HTML, CSS, JavaScript and jQuery.
                     </p>
                     <a
-                        href='https://github.com/Pete-Sekesan/covid-19-tracker'
+                        href='https://github.com/Pete-Sekesan/disney-quiz-app'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                     </a>
                     <a
-                        href='https://sleepy-hamilton-f8ea80.netlify.app/'
+                        href='https://pete-sekesan.github.io/disney-quiz-app/'
                         target='_blank'
                         rel='noreferrer'
                     >
@@ -49,23 +49,15 @@ const disquiz = () => {
                         <p className='text-center font-bold pb-2'>Technologies</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> React
+                                <RiRadioButtonFill className='pr-1' /> jQuery
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Tailwind
+                                <RiRadioButtonFill className='pr-1' /> HTML
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Javascript
+                                <RiRadioButtonFill className='pr-1' /> CSS
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Firebase
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Google API
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Zillow API
-                            </p>
+
                         </div>
                     </div>
                 </div>
