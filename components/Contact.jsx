@@ -59,13 +59,13 @@ const Contact = () => {
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                         <AiOutlineMail />
                                     </div>
-                                    {/* <Link href='/resume'>
-                                        <a>
-                                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                                <BsFillPersonLinesFill />
-                                            </div>
-                                        </a>
-                                    </Link> */}
+                                    <Link href='/resume'>
+
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                            <BsFillPersonLinesFill />
+                                        </div>
+
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@ const Contact = () => {
                                         </label>
                                         <input
                                             className='border-2 rounded-lg p-3 flex border-gray-300'
-                                            type='tel'
+                                            type='text'
                                             name='phone'
                                         />
                                     </div>
@@ -131,7 +131,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='flex justify-center py-12'>
-                    <Link scroll={false} href='/#home'>
+                    <Link href='/'>
 
                         <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <HiOutlineChevronDoubleUp
