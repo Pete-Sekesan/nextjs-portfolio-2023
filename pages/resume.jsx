@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import pdf from '../public/assets/myf.png'
 
 const resume = () => {
     return (
@@ -16,7 +17,7 @@ const resume = () => {
 
             <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
                 <h2 className='text-center'>Resume</h2>
-                <p className='text-center'>To download my full resume, please click here</p>
+
                 <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
                     <h2 className='text-center'>Peter Sekesan</h2>
                     <div className='flex'>
@@ -37,10 +38,7 @@ const resume = () => {
                     </div>
                 </div>
 
-                <p>
-                    Analytical, innovative, and motivated web development professional
-                    with experience in customer service, team l\
-                </p>
+
 
                 {/* Skills */}
                 <div className='text-center py-4'>

@@ -71,6 +71,10 @@ const Navbar = () => {
                         <Link scroll={false} href='/#contact'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
                         </Link>
+                        <Link scroll={false} href='/resume'>
+                            <li className='ml-10 text-sm uppercase hover:border-b'>Resume</li>
+                        </Link>
+
                     </ul>
                     <div onClick={handleNav} className='md:hidden'>
                         <AiOutlineMenu size={25} />
@@ -107,6 +111,9 @@ const Navbar = () => {
                             </Link>
                             <Link onClick={() => setNav(false)} scroll={false} href='/#contact'>
                                 <li className='py-4 text-sm'>Contact</li>
+                            </Link>
+                            <Link onClick={() => setNav(false)} scroll={false} href='/resume'>
+                                <li className='py-4 text-sm'>Resume</li>
                             </Link>
                         </ul>
                         <div className='pt-40'>
