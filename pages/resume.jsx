@@ -1,9 +1,11 @@
 import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import pdf from '../public/assets/myf.png'
+
+
 
 const resume = () => {
+
     return (
         <>
             <Head>
