@@ -6,7 +6,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { useRouter } from 'next/router'
-import { logo } from '/../public/assets/ps-logo-orange.png'
+import { logo } from '../public/assets/ps-logo-orange.png'
 
 
 const Navbar = () => {
