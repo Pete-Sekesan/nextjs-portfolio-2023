@@ -11,7 +11,7 @@ function About() {
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#ff9933]'>About</p>
           <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>Hi Everyone, my name is Peter Sekesan and I'm from New York. I am a software engineer working with multiple languages, libraries and frameworks across both front and backends.</p>
+          <p className='py-2 text-gray-600'>Hi everyone, my name is Peter Sekesan and I'm from New York. I am a software engineer working with multiple languages, libraries and frameworks across both front and backends.</p>
 
           <p className='py-2 text-gray-600'> In May of 2020, my career in Events Marketing and Management came to an end. I took the time to re-focus a bit and decided to finally pursue my intrigue for programming into a career. I enrolled and later graduated from a 6-month long intensive Software Engineering boot camp. Since then I have worked as a Frontend UX Developer for Adelphi University's Digital Development team, some smaller personal projects and currently my role as a Full-Stack Developer for Newsday Media Group.</p>
 
