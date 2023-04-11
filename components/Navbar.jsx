@@ -6,6 +6,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { useRouter } from 'next/router'
+import { logo } from '/../public/assets/ps-logo-orange.png'
 
 
 const Navbar = () => {
@@ -48,7 +49,7 @@ const Navbar = () => {
         <div style={{ backgroundColor: `${navBg}` }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link scroll={false} href='/#home'><Image
-                    src="/../public/assets/ps-logo-orange.png"
+                    src={logo}
                     alt="/"
                     width='125'
                     height='20' />
