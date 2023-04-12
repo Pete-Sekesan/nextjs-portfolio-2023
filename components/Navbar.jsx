@@ -87,7 +87,7 @@ const Navbar = () => {
                     'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                     <div>
                         <div onClick={handleNav} className='flex w-full items-center justify-between ease-in duration-200'>
-                            <Image src='/../public/assets/ps-logo-orange.png' width='87' height='35' alt='/' />
+                            <Image src={logo} width='87' height='35' alt='/' />
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>
